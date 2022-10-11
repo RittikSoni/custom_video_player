@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FullScreen video</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="slide-container active">
+        <div class="slide">
+          <div class="content">
+            <h3>Rittik Soni</h3>
+            <p>
+              It will show the redirect button on top right corner when the
+              video completes 50%
+            </p>
+          </div>
+          <video
+            src="https://samplelib.com/lib/preview/mp4/sample-5s.mp4"
+            muted
+            autoplay
+            loop
+            id="main_video0"
+          ></video>
+        </div>
+      </div>
+      <div class="slide-container">
+        <div class="slide">
+          <div class="content">
+            <h3>RITTIK SONI</h3>
+            <p>Hello World!</p>
+          </div>
+          <video
+            src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+            muted
+            autoplay
+            loop
+            id="main_video1"
+          ></video>
+        </div>
+      </div>
+      <a href="https://www.google.com/" class="btn" target="_blank">Redirect</a>
+      <div id="next" onclick="next()">></div>
+      <div id="prev" onclick="prev()"><</div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
