@@ -1,2 +1,3 @@
 # custom_video_player
-It's a custom video player which will show a button on top right corner when the video completes 50%.
+
+Web-based application that includes a unique feature - a button that appears on the top right corner of the video player when the video has completed 50% playback. This feature is designed to capture the user's attention and encourage them to take action, such as sharing the video on social media or signing up for more related content. The video player itself is fully customizable, with options for playback controls, video quality settings, and subtitle support. It also supports a wide range of video formats and includes features such as video analytics and real-time commenting. With the custom video player project, users can enjoy a seamless and engaging video watching experience, complete with a compelling call-to-action at the halfway point.
